@@ -1,0 +1,194 @@
+.content {
+	width: 100%;
+	height: 1980px;
+	background: #f4f4f4;
+}
+.content .address-login {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+/* background: red; */
+	font-size: 13px;
+	position: relative;
+}
+.content .address-login .address {
+	width: 350px;
+	height: 20px;
+	/*line-height: 20px;*/
+	margin-top: 30px;
+	display: inline-block;
+/* background: green; */
+	float: left;
+}
+.content .address-login .address .addr {
+	color: orange;
+	cursor: pointer;
+}
+.content .address-login .address .addr .gt {
+	display: inline-block;
+	transform: rotate(90deg);
+	margin-left: 4px;
+}
+
+.content .address-login .login {
+	width: 195px;
+	height: 37px;
+/* background: blue; */
+	margin-top: 30px;
+	position: absolute;
+	margin-top: 22px;
+	margin-left: 765px;
+}
+.content .address-login .login div {
+	display: inline-block;
+	padding: 10px 8px;	
+	background: white;
+	border-radius: 5px;
+	margin-right: 5px;	
+}
+
+
+.content .option {
+	width: 960px;
+	height: 100px;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 15px;
+}
+.content .option .icon {
+	margin-right: 8px;
+}
+.content .option ul li {
+	float: left;
+	margin-top: 37px;
+}
+.content .option ul li a {
+	display: block;
+	padding: 5px 10px;
+/* background: pink; */
+}
+.content form input {
+	width: 260px;
+	height: 45px;
+/* background: pink; */
+	text-indent: 1em;
+
+	position: absolute;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	margin-left: 230px;
+
+	border: 1px solid #ccc;
+	outline-style:none;
+}
+.content form .line {
+	width: 1px;
+	height: 45px;
+	border-left: 2px solid black;
+
+	position: absolute;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	margin-left: 278px;
+}
+.content form .search-icon {
+	width: 44px;
+	height: 44px;
+	border-left: 1px solid #ccc;
+
+	position: absolute;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	margin-left: 930px;
+}
+.content form .icon {
+	width: 1.5em;
+	height: 1.5em;
+	
+	position: absolute;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	margin-left: 20px;
+}
+
+.content .notice {
+	width: 960px;
+	height: 100px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.content .notice span {
+	display: inline-block;
+	margin: 40px 0 0 20px;
+	color: orange;
+	font-weight: bold;
+}
+.content .notice .icon {
+	color: red;
+}
+.content .notice span a {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+.content .shop-list {
+	width: 960px;
+	height: 1630px;
+	background: #fff;
+	margin: 0 auto;
+}
+.content .shop-list .line {
+	width: 920px;
+	height: 1px;
+	border-top: 1px solid #dadada;
+}
+.content .shop-list ul li {
+	width: 210px;
+	height: 250px;
+	background: #fff;
+	margin: 20px 15px 10px 15px;	
+	float: left;
+}
+.content .shop-list ul li .shop-picture {
+	border: 1px solid #ccc;
+}
+.content .shop-list ul li .title {
+	color: #000;
+
+	display: block;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 10px 0 10px;
+} 
+.content .shop-list ul li .score {
+/* background: red; */
+	display: block;
+	margin: 10px 0 10px;
+	color: #707070;
+	font-size: 13px;
+}
+.content .shop-list ul li .distribution {
+	font-size: 13px;
+/* background: blue; */
+	color: #707070;
+}
+.content .shop-list ul li .distribution .dis-time {
+	/* display: block; */
+	float: right;
+}
+.content .shop-list ul li .distribution .dis-time .icon {
+	width: 13px;
+	height: 13px;
+}
+.content .shop-list .load-more {
+	margin: 0 auto;
+	display: inline-block;
+	margin-left: 416px;
+	margin-top: 15px;
+}
